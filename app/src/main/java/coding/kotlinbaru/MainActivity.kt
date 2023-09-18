@@ -35,20 +35,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             var Panjang = input_panjang.text.toString().trim()
             var Volume = Tinggi.toDouble() * Lebar.toDouble() * Panjang.toDouble()
 
-            var isEmpty = false
-            if (Tinggi.isEmpty()){
-                isEmpty = true
-                input_tinggi.error ="Wajib Diisi"
-            }
-
-            if (Lebar.isEmpty()){
-                isEmpty = true
-                input_lebar.error ="Wajib Diisi"
-            }
-            if (Panjang.isEmpty()){
-                isEmpty = true
-                input_panjang.error ="Wajib Diisi"
-            }
+//            var isEmpty = false
+//            if (Tinggi.isEmpty()){
+//                isEmpty = true
+//                input_tinggi.error ="Wajib Diisi"
+//            }
+//
+//            if (Lebar.isEmpty()){
+//                isEmpty = true
+//                input_lebar.error ="Wajib Diisi"
+//            }
+//            if (Panjang.isEmpty()){
+//                isEmpty = true
+//                input_panjang.error ="Wajib Diisi"
+//            }
 
             if (Tinggi != null && Lebar != null && Panjang != null) {
                 result.text = "Volume $Volume"
