@@ -14,7 +14,7 @@
         android:text="@string/input_panjang"
         />
     <EditText
-        android:id="@+id/edt_length"
+        android:id="@+id/edit_long"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
@@ -57,9 +57,6 @@
         android:gravity="center"
         android:textSize="16sp"
         android:textStyle="bold" />
-
-
-
 
 
 </LinearLayout>
