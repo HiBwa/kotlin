@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Kalkulator</string>
-    <string name="result">Hasil</string>
-    <string name="btn_hitung">Hitung</string>
-    <string name="input_tinggi">Masukkan Tinggi</string>
-    <string name="input_lebar">Masukkan Lebar</string>
-    <string name="input_panjang">Masukkan Panjang</string>
+    <string name="app_name">App Test v.0.1</string>
+    <string name="back">Kembali ke Awal</string>
+    <string name="pindah_activity">Akltivitas 1</string>
+    <string name="pindah_activity2">Kirim Data</string>
+<!--mengirimkan data-->
+    <string name="view">Data Yang terkirim : </string>
 </resources>
